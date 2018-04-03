@@ -1,0 +1,14 @@
+version: '3'
+
+# Run: docker-compose up
+
+services:
+  # UI Docs and Styleguide
+  sonar:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '9000:9000'
+      - '9092:9092'
+    tty: true
