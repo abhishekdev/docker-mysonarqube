@@ -1,4 +1,4 @@
-FROM sonarqube
+FROM sonarqube:7.1
 
 # Add Sonar CSS/LESS/SCSS plugin
 # - Read latest plugin info with `curl https://api.github.com/repos/racodond/sonar-css-plugin/releases/latest`
